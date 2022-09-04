@@ -13,7 +13,7 @@ Author Melissa Baker 30 Aug 2022
 
 
 *{
-    color:blue;
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
@@ -21,19 +21,83 @@ Author Melissa Baker 30 Aug 2022
 
 html,body{
     height:100% ;
-    margin: 0px;
+    margin: 50px;
 }
 
 h1{
-    font-size: 10cm;
+    font-size: 5cm;
     margin: 0px;
     padding-left: .5em;
+    padding-top: .2em;
     color: blueviolet;
 }
+
+#para1{
+    
+}
+
+#para2{
+    position: relative;
+}
+#para3{
+    background: #ffe5e5;
+    color: black;
+    margin: 5px;
+    
+
+}
+#para4{
+    background: #ffe5e5;
+    color: black;
+    margin: 5px;
+
+}
+
+
+
+
+   
+    
 #background{
     background-image: url(jester.jpg);
-    height:100%;
+    background: url(jester.jpg);
+    height:80%;
     background-position: right;
     background-repeat: no-repeat;
+    background-color: aqua;
+    padding-left: 30%;
+    background-size:auto;
+    padding-bottom: 0%;
 
+}
+
+.panel{
+    width:75%;
+    height: 20%;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #fcd3d3;
+}
+
+ol{
+    background-color: rgb(255, 0, 153);
+    margin: 0;
+   
+    
+         
+}
+
+ol li {
+    color: aliceblue;
+}
+
+input{
+    background-color:rgb(0, 255, 110);
+    border: double;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
 }

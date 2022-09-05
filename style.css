@@ -22,6 +22,7 @@ Author Melissa Baker 30 Aug 2022
 html,body{
     height:100% ;
     margin: 50px;
+    size-adjust: 75%;
 }
 
 h1{

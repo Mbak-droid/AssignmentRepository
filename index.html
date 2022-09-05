@@ -1,8 +1,7 @@
-<!--usually the homepage of the website-->
 <!--Author Melissa Baker. This is a webpage for the joke of the day-->
 
 <!DOCTYPE html>
-<html lang="en"><!--this is the root tag-->
+<html lang="en">
     <head>
         <!--This is metadata for our document. this is also a comment there are about 111 HTML elements-->
         <title>Document title where does this show up</title>
@@ -16,15 +15,17 @@
                 <h1>Joke of the day!</h1>
             </p>
             <div>                
-                <p id="para2">
+                <p id="para1">
                     <input type="button" value="Press    here    for    LAUGHTER!" onclick="alert('HAHAHAHAHAHAHAHAHAHA')">
-                    <input type="button" value="Press    here    for   a   JOKE!" onclick="function()">
+                </p>
+                <p>
+                    <select joke="jokes" id="joke-list"></select>
                 </p>
             </div>                
             </div>
             <div class="panel">
-                <p id="para3" style="background-color: rgb(102, 71, 255); padding: 20px;" > Click this link for FUN <a href="https://jokesquotesfactory.com/best-funny-puns/"> PUNS!</a></p> 
-                <p id="para4" style="background-color: rgb(102, 71, 255); padding: 20px;"> Click this link to a funny<a href="https://www.youtube.com/watch?v=eg5Wvtp7YOI"> VIDEO! </a></p>
+                <p id="para2" style="background-color: rgb(102, 71, 255); padding: 20px;" > Click this link for FUN <a href="https://jokesquotesfactory.com/best-funny-puns/"> PUNS!</a></p> 
+                <p id="para3" style="background-color: rgb(102, 71, 255); padding: 20px;"> Click this link to a funny<a href="https://www.youtube.com/watch?v=eg5Wvtp7YOI"> VIDEO! </a></p>
             </div>
         </div>
 
@@ -37,3 +38,4 @@
         </div>
     </body>
 </html>
+<script src="joke.js"></script>

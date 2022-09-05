@@ -25,41 +25,37 @@ html,body{
     size-adjust: 75%;
 }
 
-h1{
+h1:hover{
     font-size: 5cm;
     margin: 0px;
     padding-left: .5em;
     padding-top: .2em;
-    color: blueviolet;
+    transition: 1s;
+    color: blueviolet;   
 }
+
+
 
 #para1{
-    
-}
-
-#para2{
     position: relative;
     
+}
+#para2{
+    background: #ffe5e5;
+    color: black;
+    margin: 5px;
+    
+
 }
 #para3{
     background: #ffe5e5;
     color: black;
     margin: 5px;
-    
-
-}
-#para4{
-    background: #ffe5e5;
-    color: black;
-    margin: 5px;
 
 }
 
 
-
-
-   
-    
+  
 #background{
     background-image: url(jester.jpg);
     background: url(jester.jpg);
@@ -80,7 +76,9 @@ h1{
     margin-right: 2em;
     background-color: #fcd3d3;
     font-style: italic;
+    
 }
+
 
 ol{
     background-color: rgb(255, 0, 153);
@@ -90,7 +88,8 @@ ol{
          
 }
 
-ol li {
+ol li:hover {
+    transition: 1s;
     color: aliceblue;
 }
 

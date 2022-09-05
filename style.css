@@ -39,6 +39,7 @@ h1{
 
 #para2{
     position: relative;
+    
 }
 #para3{
     background: #ffe5e5;
@@ -78,6 +79,7 @@ h1{
     margin-left: 2em;
     margin-right: 2em;
     background-color: #fcd3d3;
+    font-style: italic;
 }
 
 ol{

@@ -1,15 +1,15 @@
 /*
-Author Melissa Baker Spet 5, 2022 - WYWM assignment - Javascript 
+Author Melissa Baker Sept 5, 2022 - WYWM assignment - Javascript 
 */
 
 //variables
 const jokeListUrl = "https://v2.jokeapi.dev/joke/Any"
-const jokeList = document.getElementById("joke-list")
+const jokeList = document.getElementById("joke-list");
 //when the page loads
-window.addEventListener("load", function/method)
+window.addEventListener("load",updateJokeList);
 //retrieve list of all jokes from api
 async function getJokeList(){
-    return fetch(jokeListUrl).then(Response => Response.json());
+    return fetch(jokeListUrl).then(response => response.json());
 }
 //add joke to drop down list?
 function updateJokeList(){

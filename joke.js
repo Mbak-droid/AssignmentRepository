@@ -3,8 +3,9 @@ Author Melissa Baker Sept 5, 2022 - WYWM assignment - Javascript
 */
 
 //variables
-const jokeListUrl = "https://v2.jokeapi.dev/joke/Any"
+const jokeListUrl = "https://v2.jokeapi.dev"
 const jokeList = document.getElementById("joke-list");
+//const categories = ["Programming", "Misc", "Pun", "Spooky", "Christmas"];
 //when the page loads
 window.addEventListener("load",updateJokeList);
 //retrieve list of all jokes from api

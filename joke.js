@@ -15,7 +15,7 @@ async function getJokeList(){
 function updateJokeList(){
     getJokeList().then(function(data){
         //get joke list,type
-        for(element in data.message){
+        for(var element in data.message){
         //append to select list
         let option = createOption(element);
         jokeList.appendChild(option);

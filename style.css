@@ -104,11 +104,29 @@ input{
     font-size: 50px;
 }
 
-#btn{
-    color:rgb(48, 48, 240);
+#joke{
     border-radius: 20px;
-    border: 4px double #161515;
+    border: 10px double #161515;
+    border-color: darkorchid;
     font-size: 28px;
-    padding: 20px;
-    width: 200px;
+    padding: 80px;
+    width: 600px;
+    margin-top: 60px;
+} 
+
+
+#joke{
+    border-radius: 20px;
+    border: 10px double #161515;
+    border-color: darkorchid;
+    font-size: 28px;
+    padding: 60px;
+    width: 600px;
+    margin-top: 10px;
+    position:right;
+
+    
+}
+.btn:active {
+    transform: scale(.5em);
 }

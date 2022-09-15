@@ -12,8 +12,6 @@ const JokeText = document.getElementById('joke'); //element div
 //when the page loads
 GetJokeButton.addEventListener("click",retrieveJoke); //click then function called
 
-retrieveJoke();
-
 
 //retrieve  joke from api
 async function retrieveJoke() {
@@ -23,11 +21,11 @@ async function retrieveJoke() {
        }
     });
   
-    const newjoke = await returnJoke.json(); //new object
-
-    console.log(newjoke);
+    const newjoke = await returnJoke.json(); //new object   
 
     JokeText.innerHTML = newjoke.joke;
+
+    console.log(newjoke);
 
 }
 
